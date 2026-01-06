@@ -1,3 +1,7 @@
+(add-to-list 'load-path "/Users/Benny.Tsai/Projects/better-defaults")
+
+(require 'better-defaults)
+
 (require 'package)
 
 (add-to-list 'package-archives
@@ -8,8 +12,7 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
-(defvar my-packages '(better-defaults
-                      cider
+(defvar my-packages '(cider
                       company
                       paredit
                       smex
