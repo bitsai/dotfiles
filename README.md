@@ -7,5 +7,5 @@ ssh-add -K ~/.ssh/id_rsa
 - use "Emacs for OSX" emacsclient
 
 ```
-ln -s /Applications/Emacs.app/Contents/MacOS/bin/emacsclient /usr/local/bin
+sudo ln -s /Applications/Emacs.app/Contents/MacOS/bin/emacsclient /usr/local/bin
 ```
